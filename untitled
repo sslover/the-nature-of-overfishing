@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>过度捕捞的影响</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" href="flat-ui.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="favicon.png">
+
+    <script src="js/jquery-1.8.2.min.js"></script>
+    <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="js/jquery.dropkick-1.0.0.js"></script>
+    <script src="js/jquery.tagsinput.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script src="js/processing-1.4.1.js"></script>
+    <script src="js/application-cn.js"></script>
+	<script type="text/javascript"> 
+	var $buoop = {} 
+	$buoop.ol = window.onload; 
+	window.onload=function(){ 
+	try {if ($buoop.ol) $buoop.ol();}catch (e) {} 
+	var e = document.createElement("script"); 
+	e.setAttribute("type", "text/javascript"); 
+	e.setAttribute("src", "http://browser-update.org/update.js"); 
+	document.body.appendChild(e); 
+	} 
+	</script> 
+
+</head>
+<body>
+	<div id="holder">
+	    <canvas id="sketch" data-processing-sources="aquarium.pde"></canvas>
+	    <div id="info">
+	    	<div id="info-holder">
+		      <div id="slider" class="ui-slider">
+	            <div class="ui-slider-segment">
+	            	<p class="safe">1920</p>
+	            </div>
+	            <div class="ui-slider-segment">
+	            	<p class="safe">1930</p>
+	            </div>
+	            <div class="ui-slider-segment">
+	            	<p class="safe">1940</p>
+	            </div>
+	            <div class="ui-slider-segment">
+	            	<p class="safe">1950</p>
+	            </div>	            
+	            <div class="ui-slider-segment">
+					<p class="safe">1960</p>
+	            </div>
+	            <div class="ui-slider-segment">
+					<p class="middle">1970</p>
+	            </div>
+	            <div class="ui-slider-segment">
+					<p class="danger">1980</p>
+	            </div>
+	            <div class="ui-slider-segment">
+					<p class="danger">1990</p>
+	            </div>
+	            <div class="ui-slider-segment">
+					<p class="danger">2000</p>
+	            </div>
+	          </div>
+	          <div class="key-holder">
+	          	<div class="key-container">
+	          		<div class="keytext" style="margin-right:25px;"><img src="bf-big.png">代表“捕食性”大鱼</div>
+	          		<div class="keytext"><img src="sf-big.png">代表“猎物性”小鱼</div>
+	          		<div style="clear:both;"></div>
+	          	</div>
+		    	<h1>过度捕捞的影响</h1>
+		    	<h2>网络虚拟水族馆讲述过去100年间的鱼类变化
+		    	<a href="#" id="blurb"><img src="info.png" ></a>
+		    	</h2>
+		      </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="overlay" id="overlay" style="display:none;"></div>
+	 
+	<div class="box" id="box">
+	 <a class="boxclose" id="boxclose"></a>
+	 <h3>重要讯息</h3>
+	 <p>
+	  不幸的是，这种可视化不是专为这个浏览器设置
+	 </p>
+	</div>
+
+</body>
+</html>

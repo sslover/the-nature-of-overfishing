@@ -139,6 +139,14 @@ h2 {
 	height: 15px;
 }
 
+.bubbletext-cn{
+  margin-top: -6px;
+  height: 15px;
+  font-size: 11px;
+}
+.bubbletext-cn img{
+  margin-right: 5px;
+}
 .bubbletext img{
   margin-right: 8px;
 }
@@ -151,7 +159,10 @@ h2 {
 	width: 600px;
 	margin: 0 auto;
 }
-
+.key-container-cn{
+  width: 435px;
+  margin: 0 auto;
+}
 .keytext{
 	float: left;
 	margin-top: 30px;
@@ -231,3 +242,8 @@ a.boxclose{
 .box p{
   margin-top: 5px;
 }
+
+.tooltip-inner{
+  width: 200px;
+}
+
